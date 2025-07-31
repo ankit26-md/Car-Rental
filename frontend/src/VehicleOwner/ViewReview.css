@@ -1,0 +1,77 @@
+.review-container {
+  padding: 2rem;
+  background-image: url('Ownerimages/Revs.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #000;
+}
+
+.review-container h1 {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #dfee0b;
+  margin-bottom: 2rem;
+}
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.review-table th,
+.review-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+.review-table th {
+  background-color: #003366;
+  color: white;
+}
+.input-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.input-group input {
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+.input-group button {
+  padding: 0.5rem 1rem;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.pagination button {
+  padding: 0.5rem 1rem;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.page-info {
+  font-weight: bold;
+  color: #003366;
+  font-size: 1.1rem;
+}

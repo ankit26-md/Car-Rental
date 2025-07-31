@@ -1,0 +1,114 @@
+/* Reset layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container with background */
+.login-container {
+  background: url('Pimage/login.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -60px;
+}
+
+/* Centered login box */
+.login-box {
+    margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 400px;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #003366;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Label */
+label {
+    margin-top: -10px;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #003366;
+}
+
+/* Inputs and Selects */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+input:focus,
+select:focus {
+  border-color: #007acc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 122, 204, 0.4);
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Paragraph and link */
+p {
+  margin-top: 1.2rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+p a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .login-box {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}

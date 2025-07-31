@@ -1,0 +1,81 @@
+.main-content {
+  min-height: 100vh;
+  background-image: url('Ownerimages/owners.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); 
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.main-content h1 {
+    margin-top: 20px;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+.box-container {
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+.box1,
+.box2,
+.box3 {
+  background-color: rgba(148, 194, 75, 0.95);
+  color: #333;
+  padding: 25px 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.box1 a,
+.box2 a,
+.box3 a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #ee5007;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.box1 a:hover,
+.box2 a:hover,
+.box3 a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .main-content h1 {
+    font-size: 2rem;
+  }
+}

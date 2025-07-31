@@ -1,0 +1,156 @@
+.location-container {
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('Images/location2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.location-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+/* Input */
+.input-group input {
+  width: 250px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-group button {
+  font-size: 14px;
+  padding: 6px 12px;        
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0;               
+  width: auto;             
+}
+
+.input-group button:hover {
+ 
+
+  background-color: #5a4ac0;
+}
+
+/* Table centered */
+table.main {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 700px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+table.main th,
+table.main td {
+  font-weight: bold;    
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+table.main th {
+  font-style: bold;
+  background-color: #6a5acd;
+  color: white;
+}
+
+table.main button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+table.main td:nth-child(2) button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #e03131;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+table.main td:nth-child(2) button:hover {
+  background-color: #c92a2a;
+}
+
+table.main td:nth-child(3) button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #1c7ed6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+table.main td:nth-child(3) button:hover {
+  background-color: #1971c2;
+}
+
+
+.pagination {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #6a5acd;
+  color: #fff200;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+  background-color: #999;
+  color: #eee;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #5a4ac0;
+}
+
+.pagination span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fa5509;
+}

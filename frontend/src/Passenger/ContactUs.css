@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url('Pimage/contact.jpg') ;
+  background-size: cover;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+.contact-container h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #004080;
+  text-align: center;
+}
+
+/* Intro paragraph */
+.contact-container > p {
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Contact details block */
+.contact-details {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  padding: 30px 40px;
+  max-width: 700px;
+  width: 100%;
+  color: #004080;
+}
+
+/* Each section heading */
+.contact-details h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Paragraph text */
+.contact-details p {
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Links styling */
+.contact-details a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Founder section - make name bold */
+.contact-details p strong {
+  font-weight: 900;
+}
+
+/* Note below contact details */
+.contact-form-note {
+  margin-top: 30px;
+  max-width: 700px;
+  background: #e6f0ff;
+  border-left: 6px solid #007acc;
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #004080;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 20px 15px;
+  }
+
+  .contact-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact-details {
+    padding: 25px 20px;
+  }
+}

@@ -1,0 +1,79 @@
+/* Background Image */
+.showcar-container {
+  background: url('Pictures/booking3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 80px 20px 40px;
+  color: #fff;
+  backdrop-filter: brightness(0.9);
+}
+
+/* Title */
+.showcar-container h2 {
+  margin-top: -70px;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #d85802;
+}
+
+/* Car Card List */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual Car Card */
+.car-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.car-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Car Images */
+.car-images {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.car-images img {
+  width: 50%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Car Title */
+.car-card h4 {
+  margin: 10px 0 5px;
+  color: #1a1a1a;
+}
+
+/* Book Button */
+.book-button {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}

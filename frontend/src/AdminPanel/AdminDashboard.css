@@ -1,0 +1,59 @@
+.dashboard-content {
+  background-image: url('https://images.unsplash.com/photo-1595472943945-1d1b362abb7a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dashboard-content h1 {
+  font-size: 32px;
+  color:greenyellow;
+  margin-bottom: 40px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+  flex-wrap: wrap;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover {
+  transform: translateY(-5px);
+}
+
+.box-1 a,
+.box-2 a,
+.box-3 a {
+  display: block;
+  margin-top: 12px;
+  text-decoration: none;
+  color: #6a0dad;
+  font-weight: bold;
+}
+
+.box-1 a:hover,
+.box-2 a:hover,
+.box-3 a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,84 @@
+/* Container for top navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Menu toggle (hamburger and close button) */
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sidebar nav menu */
+.nav-menu {
+  height: 100vh;
+  width: 250px;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 0.3s;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+/* Sidebar open */
+.nav-menu.active {
+  left: 0;
+}
+
+/* Sidebar menu list */
+.nav-menu-items {
+  list-style: none;
+  padding: 0;
+}
+
+/* Close button in menu */
+.nav-menu-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+/* Each nav item */
+.nav-text {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: white;
+  transition: background 0.2s;
+}
+
+.nav-text a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* Hover effect */
+.nav-text:hover {
+  background-color: #444;
+}
+
+/* Logout button */
+.logout-button {
+  background: none;
+  border: none;
+  color: white;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #444;
+}

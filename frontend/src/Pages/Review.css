@@ -1,0 +1,167 @@
+.review-container {
+  min-height: 100vh;
+  margin-left: -15px;
+  width: 100vw;
+  padding: 100px 20px 30px;
+  background-image: url('Images/review.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); 
+  font-family: Arial, sans-serif;
+  color: #fff;
+  overflow-y: auto;
+}
+
+
+.review-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #00ffcc; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+.input-group-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-group-2 input[type="date"],
+.input-group-2 input[type="text"] {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.input-group-2 button {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group-2 button:hover {
+  background-color: #0056b3;
+}
+
+table.main-3 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #333;
+}
+
+table.main-3 th,
+table.main-3 td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold; 
+}
+
+table.main-3 th {
+  background-color: #28a745; 
+  color: white;
+}
+table.main-3 td button {
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+table.main-3 td button:hover {
+  opacity: 0.9;
+}
+
+table.main-3 td button:nth-child(1) {
+  background-color: #dc3545; 
+}
+
+table.main-3 td button:nth-child(2) {
+  background-color: #ffc107; 
+}
+.pagination-3 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pagination-3 button {
+  margin-left: 600px;
+  margin-right: 600px;
+  padding: 8px 16px;
+  background-color: #6a5acd; 
+  color: rgb(243, 243, 231);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.pagination-3 button:disabled {
+  background-color: #1cc90c;
+  cursor: not-allowed;
+}
+
+.pagination-3 button:hover:not(:disabled) {
+  background-color: #5a4ac0;
+}
+
+.pagination-3 span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fa5509;
+}
+
+@media (max-width: 768px) {
+  table.main-3 {
+    font-size: 13px;
+  }
+
+  .input-group-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pagination-3 button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .review-container h1 {
+    font-size: 2rem;
+  }
+}

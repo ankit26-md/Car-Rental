@@ -1,0 +1,130 @@
+.cars-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  background-image: url('Ownerimages/road3.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh; 
+  box-sizing: border-box; 
+}
+.cars-container h2 {
+    margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f3a005;
+}
+
+.cars-form {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cars-form input,
+.cars-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.cars-form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cars-form button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cars-form button:hover {
+  background-color: #0056b3;
+}
+
+.cars-form button + button {
+  background-color: #6c757d;
+  margin-left: 10px;
+}
+
+.cars-form button + button:hover {
+  background-color: #5a6268;
+}
+
+.cars-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cars-table th,
+.cars-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+.cars-table td {
+  font-weight: bold;
+}
+
+.cars-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.cars-table img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.cars-table button {
+  padding: 6px 12px;
+  margin: 2px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.cars-table button:hover {
+  opacity: 0.9;
+}
+
+.cars-table button:nth-child(1) {
+  background-color: #28a745; 
+}
+.cars-table button:nth-child(2) {
+  background-color: #dc3545; 
+}
+
+
+.cars-table td[colspan="14"] {
+  font-weight: bold;
+  color: #777;
+}
